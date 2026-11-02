@@ -10,3 +10,13 @@
 ![이미지](img/F6.png )
 ![이미지](img/F7.png )
 
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+  }
+  /* USER CODE END 3 */
+}
