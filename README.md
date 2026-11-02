@@ -48,21 +48,21 @@ def hello():
 ![이미지](img/f4.png )
 
 <p align="center">
-  <img src="sc_image_landing.jpg">
+  <img src="img/f1.png">
 </p>
 
 <p align="center">
-  <img src="sc_image_landing.jpg" width="80%">
+  <img src="img/f1.png" width="80%">
 </p>
 
 <p align="center">
-  <img src="sc_image_landing.jpg" width="200">
+  <img src="img/f1.png" width="200">
 </p>
 
 <p align="center">
-  <img src="sc_image_landing.jpg"  height="20%">
+  <img src="img/f1.png"  height="20%">
 </p>
 
 <p align="center">
-  <img src="sc_image_landing.jpg"  height="200">
+  <img src="img/f1.png"  height="200">
 </p>
