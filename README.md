@@ -12,7 +12,7 @@
 
 ---
 
- ``` /* Infinite loop */
+ ```python /* Infinite loop */
   /* USER CODE BEGIN WHILE */
 while(1)
   {
