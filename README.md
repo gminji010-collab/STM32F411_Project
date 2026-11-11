@@ -11,6 +11,10 @@
 
 ## 1. Architecture
 
+<details>
+<summary>F411 (클릭해서 펼치기)</summary>
+
+
 #### 메모리 및 버스 아키텍처
 
 ##### 시스템 아키텍처
@@ -59,12 +63,26 @@ APB1 및 APB2의 최대 동작 주파수에 대한 자세한 내용은 해당 �
    
 <img src="./img/arm-arch-1.png"> <br>
 
+
+</details>
+
 ## 2. CLOCK
+
+<details>
+<summary>F411 (클릭해서 펼치기)</summary>
+
 
 <img src="./img/411-clk1.png"> <br>
 <img src="./img/411-clk2.png"> <br>
 
+
+</details>
+
 ## 3. MemoryMap
+
+<details>
+<summary>F411 (클릭해서 펼치기)</summary>
+
 
 ### 4.2 메모리 구성
 
@@ -160,7 +178,14 @@ USART 주변 장치는 내부 16 MHz 오실레이터(HSI) 주파수에서 작동
 <img src="./img/010-1.png" width="85%"> <br>
 <img src="./img/011-1.png" width="85%"> <br>
 
+
+</details>
+
 ## 4. GPIO
+
+<details>
+<summary>F411 (클릭해서 펼치기)</summary>
+
 
 ## 8 범용 입출력(GPIO)
 STM32F411xC/E 모델에서는 GPIO F/G/H/I/J/K를 사용할 수 없습니다(GPIOH0 및 GPIOH1은 제외).
@@ -267,7 +292,14 @@ I/O 포트가 아날로그 구성으로 설정된 경우:
 <img src="./img/849.png"> <br>
 <img src="./img/8410.png"> <br>
 
+
+</details>
+
 ## 5. Test (F411)
+
+<details>
+<summary>F411 (클릭해서 펼치기)</summary>
+
 
 디버그를 시작합니다.
 
@@ -599,3 +631,13 @@ SFR: 저장 공간이긴 한데, 이 공간에 값을 쓰거나 읽는 행위 �
 
 #### 12. HAL_Delay(1000); 실행
 <img src="./img/F411_R_012.png"> <br>
+
+#### 13. 오실로스코프로 출력 파형 확인 - 상승 에지 (ODR = 0x40)
+<img src="./img/%EC%83%81%EC%8A%B9.jpg" width="85%"> <br>
+<img src="./img/%EC%83%81%EC%8A%B9%EC%8A%B9.png" width="85%"> <br>
+
+#### 14. 오실로스코프로 출력 파형 확인 - 하강 에지 (ODR = 0x0)
+<img src="./img/%ED%95%98%EA%B0%95.jpg" width="85%"> <br>
+<img src="./img/%ED%95%98%EA%B0%95%EA%B0%95.png" width="85%"> <br>
+
+</details>
