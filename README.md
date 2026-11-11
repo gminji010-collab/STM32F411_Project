@@ -1,3 +1,31 @@
+
+
+![이미지](img/F1.png )
+![이미지](img/F2.png )
+![이미지](img/F3.png )
+![이미지](img/F4.png )
+
+---
+![이미지](img/F5.png )
+![이미지](img/F6.png )
+![이미지](img/F7.png )
+
+---
+
+ ```python /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+while(1)
+  {
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+  }
+  /* USER CODE END 3 */
+}
+```
+
+---
+
 # GPIO (STM32F411)
    - [Datasheet - STM32F411xC STM32F411xE : Arm Cortex-M4 32b MCU+FPU, 125 DMIPS, 512KB Flash, 128KB RAM, USB OTG FS, 11 TIMs,1 ADC,13 comm. interfaces](https://www.st.com/resource/en/datasheet/stm32f411ce.pdf)
    - [RM0383 Reference Manual : STM32F411xC/E advanced Arm  -based 32-bit MCUs](https://www.st.com/resource/en/reference_manual/rm0383-stm32f411xce-advanced-armbased-32bit-mcus-stmicroelectronics.pdf)
