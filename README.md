@@ -340,15 +340,11 @@ MODER, ODR 레지스터 보고 PA6 값 계산.
 
 PA5였을 땐 MODER 0x400, ODR 0x20.
 
-#### 2. 핀 바꿔서 실험
-
-코드를 GPIO_PIN_6으로 바꾸고 돌려봄. Expressions 창에서 ODR이 0x40으로 바뀌는 거 확인하고, 오실로스코프로도 같이 봤다.
-
-#### 3. 오실로스코프로 출력 파형 확인 - 상승 에지 (ODR = 0x40)
+#### 2. 오실로스코프로 출력 파형 확인 - 상승 에지 (ODR = 0x40)
 <img src="./img/%EC%83%81%EC%8A%B9.jpg" width="85%"> <br>
 <img src="./img/%EC%83%81%EC%8A%B9%EC%8A%B9.png" width="85%"> <br>
 
-#### 4. 오실로스코프로 출력 파형 확인 - 하강 에지 (ODR = 0x0)
+#### 3. 오실로스코프로 출력 파형 확인 - 하강 에지 (ODR = 0x0)
 <img src="./img/%ED%95%98%EA%B0%95.jpg" width="85%"> <br>
 <img src="./img/%ED%95%98%EA%B0%95%EA%B0%95.png" width="85%"> <br>
 
